@@ -25,4 +25,4 @@ function mapStateToProps(state) {
 }
 
 // connect this component to Redux
-export default Users
+export default connect(mapStateToProps)(Users);
